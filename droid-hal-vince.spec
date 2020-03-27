@@ -2,7 +2,7 @@
 %define device vince
 %define vendor xiaomi
 %define vendor_pretty Xiaomi
-%define device_pretty Redmi 5 Plus
+%define device_pretty Redmi 5 Plus (vince)
 %define rpm_device vince
 %define installable_zip 1
 %define droid_target_aarch64 1
