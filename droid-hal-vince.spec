@@ -2,7 +2,7 @@
 %define device vince
 %define vendor xiaomi
 %define vendor_pretty Xiaomi
-%define device_pretty Redmi 5 Plus (vince)
+%define device_pretty Redmi 5 Plus
 %define rpm_device vince
 %define installable_zip 1
 %define droid_target_aarch64 1
@@ -15,6 +15,8 @@
     /d \
     /cache \
     /sdcard \
+    /charger \
+    /oem \
     /nonplat_file_contexts \
     /nonplat_hwservice_contexts \
     /nonplat_property_contexts \
