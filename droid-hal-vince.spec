@@ -23,6 +23,7 @@
 /selinux_version \
 /service_contexts \
 /vendor \
+/charger \
 %{nil}
 
 %define additional_post_scripts \
