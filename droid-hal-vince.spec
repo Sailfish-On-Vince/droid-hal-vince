@@ -5,11 +5,12 @@
 %define device_pretty Redmi 5 Plus
 %define installable_zip 1
 %define droid_target_aarch64 1
+%define android_version_major 7
 
 # Entries migrated from the old rpm/droid-hal-hammerhead.spec
 %define enable_kernel_update 1
 
-%define makefstab_skip_entries /dev/cpuctl
+%define makefstab_skip_entries /dev/cpuctl /dev/bfqio /dev/stune /oem
 
 %define straggler_files \
 /init.qcom.sh \
@@ -19,16 +20,15 @@
 /cache \
 /file_contexts.bin \
 /property_contexts \
+/seapp_contexts \
 /sdcard \
 /selinux_version \
 /service_contexts \
 /vendor \
 /charger \
+/sepolicy \
 %{nil}
 
-%define additional_post_scripts \
-/usr/bin/groupadd-user media_rw || :\
-%{nil}
  
 %define android_config \
 #define WANT_ADRENO_QUIRKS 1\
