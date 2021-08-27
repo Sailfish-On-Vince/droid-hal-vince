@@ -30,10 +30,6 @@
     /vndservice_contexts \
 %{nil}
 
-%define additional_post_scripts \
-/usr/bin/groupadd-user media_rw || :\
-%{nil}
- 
 %define android_config \
 #define WANT_ADRENO_QUIRKS 1\
 %{nil}
