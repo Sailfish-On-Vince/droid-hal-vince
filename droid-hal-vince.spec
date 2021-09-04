@@ -34,6 +34,11 @@
 #define WANT_ADRENO_QUIRKS 1\
 %{nil}
 
+%define android_config \
+#define QCOM_BSP 1\
+#define QTI_BSP 1\
+%{nil}
+
 # On Android 8 the system partition is (intended to be) mounted on /.
 %define makefstab_skip_entries /dev/stune /dev/cpuset /sys/fs/pstore /dev/cpuctl
 
