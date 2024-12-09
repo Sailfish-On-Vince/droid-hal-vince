@@ -10,7 +10,7 @@
 # Entries migrated from the old rpm/droid-hal-hammerhead.spec
 %define enable_kernel_update 1
 
-%define makefstab_skip_entries /proc/sys/fs/binfmt_misc /dev/cpuctl /dev/bfqio /dev/stune /oem
+%define makefstab_skip_entries /dev/cpuctl /dev/bfqio /dev/stune /oem
 
 %define straggler_files \
 /init.qcom.sh \
