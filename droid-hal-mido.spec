@@ -21,6 +21,8 @@
   /selinux_version \
   /service_contexts \
   /vendor \
+  /usr/libexec/droid-hybris/system/etc/init/hybris_extras.rc \
+  /usr/libexec/droid-hybris/system/etc/init/servicemanager.rc \
 %{nil}
 
 %define additional_post_scripts \
