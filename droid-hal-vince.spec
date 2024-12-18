@@ -27,6 +27,8 @@
 /vendor \
 /charger \
 /sepolicy \
+/usr/libexec/droid-hybris/system/etc/init/hybris_extras.rc \
+/usr/libexec/droid-hybris/system/etc/init/servicemanager.rc \
 %{nil}
 
  
