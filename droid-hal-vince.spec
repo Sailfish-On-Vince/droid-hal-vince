@@ -32,6 +32,7 @@
  
 %define android_config \
 #define WANT_ADRENO_QUIRKS 1\
+#define QCOM_BSP 1 \
 %{nil}
 
 %include rpm/dhd/droid-hal-device.inc
